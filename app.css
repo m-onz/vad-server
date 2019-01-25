@@ -80,7 +80,15 @@ a {
 }
 
 .cam-label {
-  background: rgba(155, 213, 137, 0.9);
+  background: rgba(137, 213, 210, 0.9);
   padding: 0.4em;
   font-size: 0.7em;
+}
+
+footer {
+  background: #93f9d2;
+  background: -moz-linear-gradient(45deg, #93f9d2 1%, #492b2b 77%);
+  background: -webkit-linear-gradient(45deg, #93f9d2 1%,#492b2b 77%);
+  background: linear-gradient(45deg, #93f9d2 1%,#492b2b 77%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93f9d2', endColorstr='#492b2b',GradientType=1 );
 }

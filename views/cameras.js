@@ -75,9 +75,9 @@ module.exports = function (state, emit) {
     </article>
     </main>
     </div>
-    <footer class="bg-near-black white-80 pv5 pv6-l ph4">
+    <footer class="bg-near-black white-80 pv5 pv6-l ph4 footer">
       <p class="f6">
-      <a class="f6 link dim ba bw1 ph3 pv2 mb2 dib" href="https://dronetrackingtechnologies.com">DRONE TRACKING TECHNOLOGIES</a>
+      <a class="f6 link white dim ba bw1 ph3 pv2 mb2 dib" href="https://dronetrackingtechnologies.com">DRONE TRACKING TECHNOLOGIES</a>
       </p>
     </footer>
     </body>

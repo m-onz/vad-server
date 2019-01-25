@@ -21,7 +21,6 @@ app.use(function (state, emitter) {
 
 app.route('/', require('./views/cameras.js'))
 app.route('/detections', require('./views/list.js'))
-app.route('/about', require('./views/about.js'))
-app.route('/broadcast', require('./views/broadcast.js'))
+app.route('/help', require('./views/help.js'))
 
 app.mount('body')

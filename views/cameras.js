@@ -27,6 +27,20 @@ module.exports = function (state, emit) {
     <body>
       ${nav(state, emit)}
     <br /><br /><br />
+    <article class="vh-100 dt w-100 bg-whitesmoke">
+      <div class="dtc v-mid tc white ph3 ph4-l">
+        <h1 class="f6 f2-m f-subheadline-l fw6 tc black">This is a full page alert!</h1>
+        <div class="ph3">
+          <a class="f6 link dim ba bw1 ph3 pv2 mb2 dib purple" href="#0">Button Text</a>
+          <a class="f6 link dim ba bw1 ph3 pv2 mb2 dib light-purple" href="#0">Button Text</a>
+          <a class="f6 link dim ba bw1 ph3 pv2 mb2 dib hot-pink" href="#0">Button Text</a>
+          <a class="f6 link dim ba bw1 ph3 pv2 mb2 dib dark-pink" href="#0">Button Text</a>
+        </div>
+      </div>
+    </article>
+    <div class="flex items-center justify-center pa2" style="background: #b93434;">
+      <span class="lh-title ml3 white">Drone detected 5 minutes ago</span>
+    </div>
     <div class="pa2">
     <main class="cf w-100 ma">
     <article>
@@ -75,6 +89,7 @@ module.exports = function (state, emit) {
     </article>
     </main>
     </div>
+
     <footer class="bg-near-black white-80 pv5 pv6-l ph4 footer">
       <p class="f6">
       <a class="f6 link white dim ba bw1 ph3 pv2 mb2 dib" href="https://dronetrackingtechnologies.com">DRONE TRACKING TECHNOLOGIES</a>

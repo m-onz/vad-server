@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>DTT</title>
+    <meta name="author" content="m-onz">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="tachyons.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link rel="stylesheet" href="/assets/epoch.css">
+    <link rel="stylesheet" href="/tachyons.css">
+    <style>
+      .gradient {
+      background: #93f9d2;
+      background: -moz-linear-gradient(45deg, #93f9d2 1%, #492b2b 77%);
+      background: -webkit-linear-gradient(45deg, #93f9d2 1%,#492b2b 77%);
+      background: linear-gradient(45deg, #93f9d2 1%,#492b2b 77%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93f9d2', endColorstr='#492b2b',GradientType=1 );
+    }
+    body {
+      background:  #222;
+    }
+    * {
+      color: white;
+      font-family: 'Arial';
+    }
+      </style>
   </head>
   <body>
+    <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
+    <nav class="f6 fw6 ttu tracked">
+      <a class="link dim white dib mr3" href="#!" title="Home">DTT</a>
+    </nav>
+  </header>
+    <main class="pa8 gradient">
+      <br /><br /><br />
+      <form class="measure center" action="/" method="POST" style="padding: 5em;">
+        <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+          <legend class="f4 fw6 ph0 mh0">Sign In</legend>
+          <div class="mt3">
+            <label class="db fw6 lh-copy f6" for="email-address">Email</label>
+            <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address">
+          </div>
+          <div class="mv3">
+            <label class="db fw6 lh-copy f6" for="password">Password</label>
+            <input class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password">
+          </div>
+        </fieldset>
+        <div class="">
+          <input class="f6 link dim ba bw2 ph3 pv2 mb2 dib navy" type="submit" value="Sign in">
+        </div>
+      </form>
+    </main>
   </body>
-  <script src="/assets/d3.min.js"></script>
-  <script src="/assets/epoch.js"></script>
-  <script src="/assets/jquery.js"></script>
-  <script src="/assets/data.js"></script>
-  <script src="/assets/fancycharts.js"></script>
-
-  <script src="bundle.js"></script>
 </html>

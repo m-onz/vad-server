@@ -5,14 +5,13 @@ var ws = websocket(`ws://127.0.0.1:3000`)
 
 module.exports = function (state, emitter) {
 
-  // ws.on('data', function (d) {
-  //   console.log('........ ', d.toString())
-  // })
-  //
-  // setInterval(function () {
-  //   ws.write(JSON.stringify({ png: new Date().toISOString() }))
-  // }, 4000)
+  ws.on('data', function (d) {
+    console.log('........ ', d.toString())
+  })
 
+  setInterval(function () {
+    ws.write(JSON.stringify({ png: new Date().toISOString() }))
+  }, 4000)
 
   // if (!state.current_index) {
     state.current_index = []
